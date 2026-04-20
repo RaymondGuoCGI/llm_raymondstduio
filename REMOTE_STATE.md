@@ -37,5 +37,13 @@ Captured on 2026-04-20.
 
 - `SystemName`: `RaymondStudioLLM`
 - `Logo`: custom inline SVG data URI
-- `passkey.rp_display_name`: `RaymondStudioLLM`
 - SQL patch stored in `branding-20260420.sql`
+
+## Nginx tuning
+
+- Updated on 2026-04-20 to improve first-load performance for China/mobile clients
+- Enabled `gzip_vary on`
+- Enabled `gzip_proxied any`
+- Enabled `gzip_comp_level 6`
+- Enabled `gzip_min_length 1024`
+- Enabled gzip for `text/css`, `application/javascript`, `application/json`, `text/javascript`, and `image/svg+xml`
