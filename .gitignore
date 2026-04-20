@@ -1,0 +1,11 @@
+# Keep this repo sanitized
+*.sql
+*.dump
+*.tar
+*.tar.gz
+*.tgz
+*.pem
+*.key
+*.crt
+data/
+logs/
