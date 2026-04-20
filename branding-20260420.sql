@@ -9,3 +9,5 @@ on conflict (key) do update set value=excluded.value;
 
 insert into options(key, value) values ('PasskeyDisplayName','RaymondStudioLLM')
 on conflict (key) do update set value=excluded.value;
+
+update options set value='RaymondStudioLLM' where key='passkey.rp_display_name';
