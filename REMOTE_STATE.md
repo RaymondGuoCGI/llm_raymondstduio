@@ -37,4 +37,5 @@ Captured on 2026-04-20.
 
 - `SystemName`: `RaymondStudioLLM`
 - `Logo`: custom inline SVG data URI
+- `passkey.rp_display_name`: `RaymondStudioLLM`
 - SQL patch stored in `branding-20260420.sql`
