@@ -1,0 +1,1 @@
+GitHub repo creation blocked in current environment: no gh, no token, and no create-repo API available.
