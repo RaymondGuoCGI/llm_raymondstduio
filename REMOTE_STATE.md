@@ -32,3 +32,9 @@ Captured on 2026-04-20.
 - App data: `/opt/new-api/data`
 - App logs: `/opt/new-api/logs`
 - Postgres named volume: `pg_data`
+
+## Branding override
+
+- `SystemName`: `RaymondStudioLLM`
+- `Logo`: custom inline SVG data URI
+- SQL patch stored in `branding-20260420.sql`
